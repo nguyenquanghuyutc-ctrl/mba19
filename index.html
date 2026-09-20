@@ -80,11 +80,6 @@
                 <i class="fa-solid fa-chart-pie w-5 text-center"></i> 
                 <span class="font-medium">Tổng quan lớp</span>
             </a>
-
-            <a href="#officer-responsibilities" class="flex items-center gap-3 px-4 py-3 hover:bg-white/10 hover:text-white rounded-lg transition-colors group">
-                <i class="fa-solid fa-people-group w-5 text-center text-slate-400 group-hover:text-amber-400"></i>
-                <span class="font-medium">Chức trách Ban cán sự</span>
-            </a>
             
             <a href="#" class="restricted-link flex items-center gap-3 px-4 py-3 hover:bg-white/10 hover:text-white rounded-lg transition-colors group">
                 <i class="fa-solid fa-tasks w-5 text-center text-slate-400 group-hover:text-brand-400"></i> 
@@ -137,11 +132,6 @@
                     <i class="fa-regular fa-clock"></i> Khóa học 2024 - 2026
                 </span>
                 
-                <a href="#officer-responsibilities" class="flex items-center gap-2 bg-brand-50 text-brand-700 border border-brand-200 px-3 sm:px-4 py-2 rounded-lg text-sm font-semibold hover:bg-brand-100 transition-colors">
-                    <i class="fa-solid fa-people-group"></i>
-                    <span class="hidden sm:inline">Chức trách BCS</span>
-                </a>
-
                 <!-- Nút Xuất Excel -->
                 <button onclick="exportToCSV()" class="flex items-center gap-2 bg-emerald-50 text-emerald-600 border border-emerald-200 px-4 py-2 rounded-lg text-sm font-medium hover:bg-emerald-100 hover:border-emerald-300 transition-colors shadow-sm">
                     <i class="fa-solid fa-file-excel"></i> Xuất Excel
@@ -195,111 +185,6 @@
                         <!-- Render via JS -->
                     </div>
                 </div>
-
-                <!-- Chức trách Ban Cán Sự -->
-                <section id="officer-responsibilities" class="scroll-mt-6 bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
-                    <div class="p-5 sm:p-6 bg-gradient-to-r from-brand-950 to-brand-900 text-white">
-                        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
-                            <div>
-                                <div class="inline-flex items-center gap-2 text-amber-300 text-xs font-bold uppercase tracking-[0.16em] mb-2">
-                                    <i class="fa-solid fa-shield-halved"></i> Quy chế phối hợp nội bộ
-                                </div>
-                                <h3 class="text-xl sm:text-2xl font-bold">Chức trách Ban cán sự lớp</h3>
-                                <p class="text-blue-100 mt-2 max-w-3xl text-sm leading-relaxed">Mỗi việc có một đầu mối chịu trách nhiệm. Ban cán sự phối hợp, thống nhất thông tin trước khi thông báo để nhóm lớp ngắn gọn, rõ ràng và không bị nhiễu.</p>
-                            </div>
-                            <div class="flex-shrink-0 rounded-xl bg-white/10 border border-white/15 px-4 py-3 text-sm">
-                                <span class="block text-blue-200 text-xs">Nguyên tắc chung</span>
-                                <strong class="text-white">Rõ người · Rõ việc · Rõ thời hạn</strong>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-5 sm:p-6 space-y-6">
-                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                            <article class="rounded-xl border border-amber-200 bg-amber-50/50 p-5">
-                                <div class="flex items-start gap-3 mb-4">
-                                    <div class="w-11 h-11 rounded-xl bg-amber-500 text-white flex items-center justify-center shadow-sm"><i class="fa-solid fa-star"></i></div>
-                                    <div><p class="text-xs font-bold text-amber-700 uppercase tracking-wide">Lớp trưởng</p><h4 class="font-bold text-slate-900">Nguyễn Quang Huy</h4></div>
-                                </div>
-                                <ul class="space-y-2 text-sm text-slate-700 leading-relaxed">
-                                    <li><i class="fa-solid fa-check text-amber-600 mr-2"></i>Điều phối chung và phân công đầu mối cho từng việc của lớp.</li>
-                                    <li><i class="fa-solid fa-check text-amber-600 mr-2"></i>Đại diện lớp làm việc với Khoa, giảng viên và Ban tổ chức liên lớp.</li>
-                                    <li><i class="fa-solid fa-check text-amber-600 mr-2"></i>Chốt nội dung quan trọng trước khi phát hành thông báo chính thức.</li>
-                                    <li><i class="fa-solid fa-check text-amber-600 mr-2"></i>Giải quyết việc liên phòng ban hoặc vấn đề chưa xác định được đầu mối.</li>
-                                </ul>
-                            </article>
-
-                            <article class="rounded-xl border border-blue-200 bg-blue-50/50 p-5">
-                                <div class="flex items-start gap-3 mb-4">
-                                    <div class="w-11 h-11 rounded-xl bg-brand-600 text-white flex items-center justify-center shadow-sm"><i class="fa-solid fa-book-open"></i></div>
-                                    <div><p class="text-xs font-bold text-brand-700 uppercase tracking-wide">Lớp phó học tập</p><h4 class="font-bold text-slate-900">Bùi Ngọc Thắng</h4></div>
-                                </div>
-                                <ul class="space-y-2 text-sm text-slate-700 leading-relaxed">
-                                    <li><i class="fa-solid fa-check text-brand-600 mr-2"></i>Theo dõi lịch học, lịch thi, phòng học và các thay đổi học vụ.</li>
-                                    <li><i class="fa-solid fa-check text-brand-600 mr-2"></i>Tổng hợp tài liệu, bài tập, hạn nộp và câu hỏi gửi giảng viên.</li>
-                                    <li><i class="fa-solid fa-check text-brand-600 mr-2"></i>Nhắc tiến độ học tập; tổng hợp danh sách vắng hoặc cần hỗ trợ.</li>
-                                    <li><i class="fa-solid fa-check text-brand-600 mr-2"></i>Chỉ đăng thay đổi lịch sau khi đã kiểm tra nguồn và xác nhận.</li>
-                                </ul>
-                            </article>
-
-                            <article class="rounded-xl border border-emerald-200 bg-emerald-50/50 p-5">
-                                <div class="flex items-start gap-3 mb-4">
-                                    <div class="w-11 h-11 rounded-xl bg-emerald-600 text-white flex items-center justify-center shadow-sm"><i class="fa-solid fa-users-rectangle"></i></div>
-                                    <div><p class="text-xs font-bold text-emerald-700 uppercase tracking-wide">Lớp phó Truyền thông & Đời sống</p><h4 class="font-bold text-slate-900">Lê Sỹ Tuấn</h4></div>
-                                </div>
-                                <ul class="space-y-2 text-sm text-slate-700 leading-relaxed">
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Phụ trách hoạt động tập thể, sự kiện, thăm hỏi và gắn kết lớp.</li>
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Tổ chức khảo sát tham gia, hậu cần, hình ảnh và truyền thông nội bộ.</li>
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Tổng hợp đề xuất về đời sống, quyền lợi và nhu cầu hỗ trợ của học viên.</li>
-                                    <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i>Phối hợp lớp trưởng trước các thông báo đối ngoại hoặc liên lớp.</li>
-                                </ul>
-                            </article>
-
-                            <article class="rounded-xl border border-rose-200 bg-rose-50/50 p-5">
-                                <div class="flex items-start gap-3 mb-4">
-                                    <div class="w-11 h-11 rounded-xl bg-rose-600 text-white flex items-center justify-center shadow-sm"><i class="fa-solid fa-sack-dollar"></i></div>
-                                    <div><p class="text-xs font-bold text-rose-700 uppercase tracking-wide">Thủ quỹ</p><h4 class="font-bold text-slate-900">Hòa Thị Trang</h4></div>
-                                </div>
-                                <ul class="space-y-2 text-sm text-slate-700 leading-relaxed">
-                                    <li><i class="fa-solid fa-check text-rose-600 mr-2"></i>Tiếp nhận các khoản thu, ghi nhận người đã đóng và đối soát số tiền.</li>
-                                    <li><i class="fa-solid fa-check text-rose-600 mr-2"></i>Chỉ thực hiện thu–chi theo nội dung đã được lớp thống nhất.</li>
-                                    <li><i class="fa-solid fa-check text-rose-600 mr-2"></i>Lưu chứng từ; công khai số dư, các khoản thu và chi theo từng đợt.</li>
-                                    <li><i class="fa-solid fa-check text-rose-600 mr-2"></i>Báo cáo ngay khi có chênh lệch hoặc khoản chi phát sinh ngoài dự kiến.</li>
-                                </ul>
-                            </article>
-                        </div>
-
-                        <div class="grid grid-cols-1 xl:grid-cols-5 gap-5">
-                            <div class="xl:col-span-3 rounded-xl border border-slate-200 overflow-hidden">
-                                <div class="px-5 py-4 bg-slate-50 border-b border-slate-200">
-                                    <h4 class="font-bold text-slate-900"><i class="fa-solid fa-route text-brand-600 mr-2"></i>Đầu mối xử lý theo nội dung</h4>
-                                </div>
-                                <div class="overflow-x-auto custom-scrollbar">
-                                    <table class="w-full text-sm">
-                                        <thead class="text-left text-slate-500 bg-white"><tr><th class="px-5 py-3 font-semibold">Nội dung</th><th class="px-5 py-3 font-semibold">Đầu mối</th><th class="px-5 py-3 font-semibold">Cách xử lý</th></tr></thead>
-                                        <tbody class="divide-y divide-slate-100 text-slate-700">
-                                            <tr><td class="px-5 py-3 font-medium">Lịch học, thi, tài liệu</td><td class="px-5 py-3">Lớp phó học tập</td><td class="px-5 py-3">Kiểm tra nguồn → thông báo</td></tr>
-                                            <tr><td class="px-5 py-3 font-medium">Sự kiện, thăm hỏi, đời sống</td><td class="px-5 py-3">Lớp phó TT & Đời sống</td><td class="px-5 py-3">Khảo sát → lập phương án</td></tr>
-                                            <tr><td class="px-5 py-3 font-medium">Thu–chi, số dư, chứng từ</td><td class="px-5 py-3">Thủ quỹ</td><td class="px-5 py-3">Đối soát → công khai</td></tr>
-                                            <tr><td class="px-5 py-3 font-medium">Làm việc với Khoa, liên lớp</td><td class="px-5 py-3">Lớp trưởng</td><td class="px-5 py-3">Tổng hợp → chốt đầu mối</td></tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-
-                            <aside class="xl:col-span-2 rounded-xl border border-brand-200 bg-brand-50 p-5">
-                                <h4 class="font-bold text-brand-950 mb-3"><i class="fa-solid fa-comments text-brand-600 mr-2"></i>Quy tắc trao đổi trong nhóm lớp</h4>
-                                <ol class="space-y-3 text-sm text-slate-700 leading-relaxed">
-                                    <li class="flex gap-3"><span class="w-6 h-6 rounded-full bg-brand-600 text-white flex items-center justify-center text-xs font-bold flex-shrink-0">1</span><span>Mỗi nội dung do <strong>một đầu mối</strong> tổng hợp và trả lời; thành viên khác bổ sung thông tin cho đầu mối.</span></li>
-                                    <li class="flex gap-3"><span class="w-6 h-6 rounded-full bg-brand-600 text-white flex items-center justify-center text-xs font-bold flex-shrink-0">2</span><span>Dùng nhãn <strong>[THÔNG BÁO]</strong>, <strong>[CẦN Ý KIẾN]</strong> hoặc <strong>[NHẮC VIỆC]</strong> ở đầu tin nhắn.</span></li>
-                                    <li class="flex gap-3"><span class="w-6 h-6 rounded-full bg-brand-600 text-white flex items-center justify-center text-xs font-bold flex-shrink-0">3</span><span>Thông tin chưa kiểm chứng hoặc chưa thống nhất chỉ trao đổi trong Ban cán sự, chưa đăng vào nhóm lớp.</span></li>
-                                    <li class="flex gap-3"><span class="w-6 h-6 rounded-full bg-brand-600 text-white flex items-center justify-center text-xs font-bold flex-shrink-0">4</span><span>Việc quan trọng ảnh hưởng cả lớp được lớp trưởng hoặc người được ủy quyền phát thông báo cuối cùng.</span></li>
-                                </ol>
-                                <div class="mt-4 pt-4 border-t border-brand-200 text-xs text-brand-800"><strong>Mục tiêu:</strong> giảm tin nhắn trùng lặp, không hạn chế ý kiến; mọi góp ý vẫn được tiếp nhận đúng đầu mối.</div>
-                            </aside>
-                        </div>
-                    </div>
-                </section>
 
                 <!-- Table Section -->
                 <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden flex flex-col">
